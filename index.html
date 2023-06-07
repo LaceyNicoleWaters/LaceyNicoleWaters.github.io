@@ -75,6 +75,31 @@ body {
         text-align: left;
     }
 }
+
+.image-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .image-container {
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .image-container {
+        top: 30px;
+        right: 30px;
+    }
+}
 </style>
 </head>
 <body>
@@ -88,6 +113,11 @@ body {
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
+</div>
+    
+    
+<div class="image-container">
+  <img src="images/jb-logo1.png" alt="Java Been logo" style="width: 150px; height: auto;">
 </div>
 
 <div style="padding-left: 16px;">
